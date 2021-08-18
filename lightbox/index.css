@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width:  100%;
+
+}
+.content {
+    max-width: 1025px ;
+    padding: 5px 20px ;
+    margin: 0 auto;
+}
+.image {
+    max-width: 300px  ;
+    height: 300px;
+    cursor: zoom-in;
+    display:flexbox;
+    padding: 5px ;
+}
+.lightbox {
+    position: fixed;
+    top:  0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.103);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.lightbox-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding:0 25px ;
+}
+.lightbox-content img {
+    min-height: 400px;
+    width: 500px ;
+    border-radius: 40px;
+}
+.lightbox-content i {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    cursor: pointer;
+    top: -175px;
+    padding: 20px ;
+
+}
